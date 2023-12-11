@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IvanennkoLab07-1</title>
+</head>
+<body>
+
+<h2>Заповніть форму про ваше хоббі</h2>
+
+<form action="form.html" method="post" target="_blank">
+    <pre>
+        Ваше ім'я: <input name="name" type="text" maxlength="40" size="40" value="">
+        Ваша стать:<input type="radio" name="pol" value="male">Чоловіча
+        <input type="radio" name="pol" value="female">Жіноча
+        Які жанри ігор вам більше всього подобаються?? 
+        <select name="curs" size="1">
+            <option value="1" selected> Історичні </option>
+            <option value="2">Фентезі</option>
+            <option value="3">Шутери</option>
+            <option value="4">Королівські битви</option>
+            <option value="5">Виживання</option>
+        </select>
+        Яку гру ви нещодавно для себе відкрили: <input name="game" type="text" maxlength="20" size="20" value="">
+        В якому вона жанрі?
+        <input type="checkbox" name="11" value="" checked> Історичні
+        <input type="checkbox" name="12" value=""> Фентезі
+        <input type="checkbox" name="13" value="" checked> Шутери
+        <input type="checkbox" name="14" value=""> Королівські битви
+        <input type="checkbox" name="15" value="" checked> Виживання
+        
+        Напишіть декілька слів про про цю гру: 
+        <textarea name="about" rows="6" cols="60" wrap="off"></textarea>
+    </pre>
+    <p>
+        <input type="submit" value=" Відіслати дані ">
+        <input type="reset" value=" Очистити форму ">
+        <input type="file" name="friend" size="50" accept="припустимий тип файлу">
+    </p>
+</form>
+
+</body>
+</html>
